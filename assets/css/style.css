@@ -1,4 +1,4 @@
-/* RESET */
+/* SECTION RESET */
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 
-/* HEADER */
+/* SECTION HEADER */
 header {
     min-height: 85px;
     padding-top: 10px;
@@ -47,18 +47,17 @@ header {
     margin-left: 15px;
 }
 
-.personalAccount img {
-    width: 30px;
-    height: 30px;
+.personalAccount > img {
+    width: 25px;
+    height: 28px;
     cursor: pointer;
 }
 
 .avatar {
-    padding: 15px;
+    padding: 12px 17px;
     background-color: #ff6347;
     color: #fff;
-    /* border-radius: 50%; */
-    clip-path: circle();
+    border-radius: 50%;
     margin: 0 10px;
 }
 
@@ -91,7 +90,7 @@ header {
     color: #4d7ee8;
 }
 
-/* MAIN */
+/* SECTION MAIN */
 .container {
     width: 70%;
     margin: 0 auto;

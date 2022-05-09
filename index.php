@@ -20,11 +20,6 @@ $faqs = [
     ]
 ];
 
-// foreach ($faqs as $faq) {
-//     echo "<h1>" . $faq['question'] . "</h1>";
-//     echo "<p>" . $faq['answer'] . "</p>";
-// }
-
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +29,7 @@ $faqs = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,12 +41,12 @@ $faqs = [
     <header>
         <div id="logo">
             <a href="#">
-                <img src="./img/logo-google.png" alt="logo Google">
+                <img src="./assets/img/logo-google.png" alt="logo Google">
                 Privacy e termini
             </a>
 
             <div class="personalAccount">
-                <img src="./img/thumbnail.png" alt="thumbnail">
+                <img src="./assets/img/thumbnail.png" alt="thumbnail">
                 <div class="avatar">S</div>
             </div>
         </div>
